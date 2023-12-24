@@ -1,0 +1,7 @@
+com\util\BaseConfig.class
+com\report\ExtentReportAutomation.class
+com\util\SeleniumHighLighter.class
+com\util\SeleniumClick.class
+com\page\object\model\LoginPage.class
+com\generic\LoginFunction.class
+com\util\SeleniumWait.class

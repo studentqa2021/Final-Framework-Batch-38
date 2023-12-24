@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-24T18:47:42.591Z",
+        "line": 7,
+        "name": "testing login function with valid credential",
+        "description": "",
+        "id": "login-function-test;testing-login-function-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3148754200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "open a browser",
+            "match": {
+              "location": "Stepdef.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2318444500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "go to application URL",
+            "match": {
+              "location": "Stepdef.go_to_application_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454034500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "put valid user",
+            "match": {
+              "location": "Stepdef.put_valid_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 295956900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "put valid password",
+            "match": {
+              "location": "Stepdef.put_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1346997600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click login btn",
+            "match": {
+              "location": "Stepdef.click_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5436681000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "test will pass if log out btn found",
+            "match": {
+              "location": "Stepdef.test_will_pass_if_log_out_btn_found()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "Login function test",
+    "description": "",
+    "id": "login-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
