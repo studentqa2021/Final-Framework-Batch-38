@@ -5,12 +5,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
-	// store all login related xpath
-
-	// which datatype to use==> Web element
-	// PF or POM concept
-	// PF ==> @FindBy
-	// POM ==> By
+	//POM = only By method (no need encapsulation)
 
 	public By user = By.xpath("//*[@name='username']");
 	public By pass = By.xpath("//*[@name='password']");

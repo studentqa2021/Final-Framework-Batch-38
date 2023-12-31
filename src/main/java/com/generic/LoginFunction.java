@@ -15,7 +15,7 @@ import com.util.SeleniumWait;
 
 public class LoginFunction {
 	
-	public void getLogin() throws Exception {
+	public static void getLogin() throws Exception {
 	
 		WebDriver driver = new ChromeDriver();
 		//go to application link

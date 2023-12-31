@@ -2,11 +2,10 @@ package com.regression;
 
 import com.generic.LoginFunction;
 
-public class TestRun {
+public class TestRun extends LoginFunction{
 
 	public static void main(String[] args) throws Exception {
-		LoginFunction obj = new LoginFunction();
-		obj.getLogin();
+		getLogin();
 
 	}
 
