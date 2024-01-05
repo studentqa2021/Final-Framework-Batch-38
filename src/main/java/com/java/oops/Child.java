@@ -1,10 +1,14 @@
 package com.java.oops;
 
 public class Child extends Parent {
-	
-	public static void main(String[] args) {
+
+	public Child(){//XXXXX not
 		
-		
+	}
+
+	public void getSalary() {
+		// TODO Auto-generated method stub
+
 	}
 
 }

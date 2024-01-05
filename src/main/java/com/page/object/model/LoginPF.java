@@ -16,7 +16,12 @@ public class LoginPF {
 		return userName;
 	}
 
-	
+	// how to call method in java?
+		// static word
+		//Inheritance change
+	// why method need call?
+		//java run code only inside main method>> other method can not run any code
+	//so java rules: write code in side other method >> call other method inside main method
 	
 	
 
